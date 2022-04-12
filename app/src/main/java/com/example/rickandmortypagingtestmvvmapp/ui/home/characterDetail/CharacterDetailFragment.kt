@@ -5,12 +5,12 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
 import com.example.rickandmortypagingtestmvvmapp.R
-import com.example.rickandmortypagingtestmvvmapp.databinding.CharacterDetailFragmentBinding
+import com.example.rickandmortypagingtestmvvmapp.databinding.FragmentCharacterDetailBinding
 import com.example.rickandmortypagingtestmvvmapp.ui.base.BaseFragment
 import com.mellon.newssampleharun.common.extensions.observeNonNull
 
-class CharacterDetailFragment : BaseFragment<CharacterDetailFragmentBinding>() {
-    override fun getLayoutResId(): Int = R.layout.character_detail_fragment
+class CharacterDetailFragment : BaseFragment<FragmentCharacterDetailBinding>() {
+    override fun getLayoutResId(): Int = R.layout.fragment_character_detail
 
     private val charactersDetailArguments : CharacterDetailArguments by lazy(LazyThreadSafetyMode.NONE){
         arguments?.getParcelable(ARG_CHARACTER_DETAILS)!!
