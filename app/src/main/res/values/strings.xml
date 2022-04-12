@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RickAndMortyPagingTestMVVMApp</string>
+    <string name="fetch_error">Veriler çekilirken hata oldu. Lütfen tekrar deneyiniz!</string>
+    <string name="try_again">Tekrar dene</string>
+</resources>

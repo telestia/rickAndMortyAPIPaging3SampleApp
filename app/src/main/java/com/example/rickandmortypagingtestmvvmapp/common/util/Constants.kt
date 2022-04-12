@@ -1,0 +1,10 @@
+package com.example.bookpricesmvvmtestapp.common.util
+
+object Constants {
+    const val BASE_URL = "https://rickandmortyapi.com/api/"
+
+    /*
+    const val API_KEY =
+        "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjgyYmQ0YTNkLWFlYTUtNGIzMC1hMTQ5LTExMTJiMTdkYTJlMSIsImlhdCI6MTY0OTMyNTA2Mywic3ViIjoiZGV2ZWxvcGVyL2IyMzQ3ODVmLTIyOGMtMzQ1NC0zZTcyLTc4MzgwZDk2N2E3OCIsInNjb3BlcyI6WyJyb3lhbGUiXSwibGltaXRzIjpbeyJ0aWVyIjoiZGV2ZWxvcGVyL3NpbHZlciIsInR5cGUiOiJ0aHJvdHRsaW5nIn0seyJjaWRycyI6WyIzMS4xNDUuNzUuODEiXSwidHlwZSI6ImNsaWVudCJ9XX0.h8SK2HNv9NYMeUqXj50fuCKy7sjctPjtfLXsnhakFtBK4VSRDs6XsolmIAcQGagg6NAfWLefQmD1zoxJQPFPEg"
+     */
+}
