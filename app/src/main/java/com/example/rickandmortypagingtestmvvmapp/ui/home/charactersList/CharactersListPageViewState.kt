@@ -5,7 +5,6 @@ import com.example.rickandmortypagingtestmvvmapp.remote.model.RickAndMortyRespon
 import com.example.rickandmortypagingtestmvvmapp.remote.Status
 
 data class CharactersListPageViewState(
-    val characters : RickAndMortyResponse? = null,
     val status : Status = Status.SUCCESS
 ){
   fun isLoadingVisible() = if (status == Status.LOADING) View.VISIBLE else View.GONE

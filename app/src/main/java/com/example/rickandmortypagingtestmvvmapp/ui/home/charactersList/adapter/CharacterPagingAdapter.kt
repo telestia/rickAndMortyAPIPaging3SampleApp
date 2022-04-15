@@ -1,8 +1,12 @@
 package com.example.rickandmortypagingtestmvvmapp.ui.home.charactersList.adapter
 
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
+import androidx.core.view.isVisible
 import androidx.databinding.DataBindingUtil
+import androidx.paging.LoadState
+import androidx.paging.LoadStateAdapter
 import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
@@ -44,6 +48,7 @@ class CharacterPagingAdapter: PagingDataAdapter<CharactersResult, CharacterPagin
             }
         }
     }
+
     object DataDiff : DiffUtil.ItemCallback<CharactersResult>(){
         override fun areItemsTheSame(oldItem: CharactersResult, newItem: CharactersResult): Boolean {
             return oldItem.id == newItem.id
@@ -56,3 +61,5 @@ class CharacterPagingAdapter: PagingDataAdapter<CharactersResult, CharacterPagin
     }
 
 }
+
+
