@@ -9,10 +9,10 @@
         android:id="@+id/charactersListFragment"
         android:name="com.example.rickandmortypagingtestmvvmapp.ui.home.charactersList.CharactersListFragment"
         android:label="CharactersListFragment"
-        tools:layout="@layout/characters_list_fragment"/>
+        tools:layout="@layout/fragment_characters_list"/>
     <fragment
         android:id="@+id/characterDetailFragment"
         android:name="com.example.rickandmortypagingtestmvvmapp.ui.home.characterDetail.CharacterDetailFragment"
         android:label="CharacterDetailFragment"
-        tools:layout="@layout/character_detail_fragment"/>
+        tools:layout="@layout/fragment_character_detail"/>
 </navigation>
